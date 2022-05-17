@@ -1,0 +1,22 @@
+.main-vuelos{
+    font-family: $fuente;
+    margin: 30px;
+}
+.vuelos1 h1{
+    font-size: 2em;
+
+}
+
+.main-paquetes, 
+.main-alojamientos{
+    @extend .main-vuelos
+}
+.paquetes h1,
+.alojamientos h1{
+    font-size: 2em;
+}
+.card-body a{
+    text-decoration: none;
+    color: $color1;
+}
+
